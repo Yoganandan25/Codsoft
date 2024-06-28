@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: tomato;
+    padding: 20px 10%;
+    background-color: transparent;
+    padding-right: 0px;
+    
+    
+
+
+
+}
+
+li,
+a {
+    font-weight: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 30px;
+    color: black;
+    font-size: 30px;
+}
+
+.logo {
+    margin-right: auto;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+    border-radius:5px;
+    height: 16px;
+    background-color: lightblue;
+}
+
+.wrapper {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(wesson-wang-y0_vFxOHayg-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+    position: relative;
+    z-index: 1;
+}
+
+img {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 500px;
+    width: 1px;
+}
+
+.logo-info,
+p {
+    line-height: 10px;
+    margin-bottom: 0px;
+    margin-top: 110px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    color: black;
+    align-items: end;
+    text-align: center;
+
+    box-shadow: 3px;
+
+}
+
+.information {
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+}
+ a:hover {
+    background-color: lightgreen;
+
+}
